@@ -10,6 +10,5 @@ def hello_world():
 def page_not_found(error):
     return make_response(render_template('error404.html'), 404)
 
-
 if __name__ == "__main__":
     app.run(debug=True)
